@@ -1,0 +1,11 @@
+package com.example.mobilebank.data.remote.response
+
+data class RegisterResponse(
+    val token: String
+)
+
+/*
+* {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJodHRwOi8vMTQzLjE5OC40OC4yMjI6ODQvdjEvbW9iaWxlLWJhbmsvYXV0aCIsImNvZGUiOiIxMTgzNjciLCJwaG9uZSI6Iis5OTg5OTM5NDYyODAiLCJpc3MiOiJodHRwOi8vMTQzLjE5OC40OC4yMjI6ODQvdjEvbW9iaWxlLWJhbmsiLCJib2R5IjoiTXVoYW1tYWRhbGkjUmFoaW1iZXJnYW5vdiNxd2VydHkjOTY5ODIyMDAwMDAwIzAjIiwiZXhwIjoxNjcxMTA3NzA2fQ.FDQAdueKD8gsWwlekOoezWhNixPNUKj5NElbfbRSOxM"
+}
+* */
